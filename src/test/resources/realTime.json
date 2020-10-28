@@ -1,0 +1,40 @@
+{
+  "result": {
+    "uv": 0,
+    "uv_time": "2020-10-28T01:28:53.091Z",
+    "uv_max": 8.6271,
+    "uv_max_time": "2020-10-27T16:54:58.790Z",
+    "ozone": 319.1,
+    "ozone_time": "2020-10-28T00:04:27.507Z",
+    "safe_exposure_time": {
+      "st1": null,
+      "st2": null,
+      "st3": null,
+      "st4": null,
+      "st5": null,
+      "st6": null
+    },
+    "sun_info": {
+      "sun_times": {
+        "solarNoon": "2020-10-27T16:54:58.790Z",
+        "nadir": "2020-10-27T04:54:58.790Z",
+        "sunrise": "2020-10-27T10:07:22.608Z",
+        "sunset": "2020-10-27T23:42:34.972Z",
+        "sunriseEnd": "2020-10-27T10:10:15.106Z",
+        "sunsetStart": "2020-10-27T23:39:42.474Z",
+        "dawn": "2020-10-27T09:39:05.315Z",
+        "dusk": "2020-10-28T00:10:52.266Z",
+        "nauticalDawn": "2020-10-27T09:04:59.272Z",
+        "nauticalDusk": "2020-10-28T00:44:58.308Z",
+        "nightEnd": "2020-10-27T08:28:50.527Z",
+        "night": "2020-10-28T01:21:07.054Z",
+        "goldenHourEnd": "2020-10-27T10:43:46.138Z",
+        "goldenHour": "2020-10-27T23:06:11.442Z"
+      },
+      "sun_position": {
+        "azimuth": 0.9369172535852385,
+        "altitude": -0.335925191559966
+      }
+    }
+  }
+}
