@@ -29,6 +29,11 @@ El resumen se visualizara en la siguiente ruta:
 ```
 target/site/serenity/serenity-summary.html
 ```
+## Componente Teorico
+ruta:
+```
+src/test/resources/componenteTeorico.mp4
+```
 
 
 ## Componente Practico
@@ -53,9 +58,13 @@ R\= En el problema planteado estamos hablando de pruebas en microservicios. Por 
 ```
 La prueba se hara basada en la teoria de pruebas de contratos por lo que revisaremos la estructura y codigos de respuesta que nos da la aplicacion. En el escenario planteado se pueden hacer
 multiples combinaciones. Pero en el caso de esta prueba automatizaremos los que considero mas criticos, ya que debemos garantizar que minimamente los errores controlados por el servidor, cuando el
-consumidor envia una peticion y el caso de que el proceso fue exitoso. Se pueden ver los casos implementados en la siguiente ruta:
+consumidor envia una peticion y el caso de que el proceso fue exitoso (pruebas detalladas de implementacion). Se pueden ver los casos implementados en la siguiente ruta:
 
 features/tiempo_real_api.feature
+
+Otros casos a aprobar serian: 
+1. Los casos de integracion para validar que la respuestas(contenido de los mensajes) de la aplicacion son las adecuadas. Esto lo haria en una etapa posterior para validar comportamiento entre
+ servidor consumidor(cuando este se haya creado).
 ```
 
 ##Pregunta
@@ -87,6 +96,8 @@ Ahora bien para comprar un producto, pero para garantizar que este flujo funcion
 14. Se debe verificar que se pueda comprar mas de un producto.
 
 Algunas de las validaciones anteriores se hicieron en el escenario automatizado. 
+
+El escenario automatizado falla, ya que una de las validaciones es que la fecha corresponda al dia en que se realiza la compra, y la fecha mostrada es de un mes anterior.
 
 features/tiempo_real_api.feature
 ```
